@@ -1,27 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live with chemistry - Blog</title>
-    <link rel="stylesheet" href="style/style.css" >
+    <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <header>
-        <img src="../static/gfx/logo.png" alt="logo">
-        <h2>Live with chemistry</h2>
-        <h3>Twój blog chemiczny!</h3>
+        <img id="logo" src="gfx/logo.png" alt="logo">
+
+        <div id="description">
+            <h1>Live with chemistry</h1>
+            <h3>Twój blog chemiczny!</h3>
+        </div>
+
         <div id="navigation_bar">
-            <a href="">O mnie</a>
-            <a href="">Wpisy</a>
-            <a href="">Kontakt</a>
+            <a class="nav_a" href="">O mnie</a>
+            <a class="nav_a" href="">Wpisy</a>
+            <a class="nav_a" href="">Kontakt</a>
         </div>
     </header>
 
-    <div id="latest_post">
-        <img src="" alt="">
-    </div>
-    
+    <section>
+        <div id="latest_post">
+            <p><b>Chemia analityczna </b>w codziennym życiu ... <a href="">Zobacz więcej</a></p>
+            <img class="latest_posts" src="gfx/temp_image.jpg" alt="">
+        </div>
+
+        <div id="fact">
+            <p>Ciekawostka</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur</p>
+        </div>
+    </section>
+
+    <footer>
+        <div id="newsletter_information">
+            <p class="newsletter">Dołącz do naszego newslettera !</p>
+            <p class="newsletter">Systematycznie przesyłamy chemiczne nowinki z życia, które z pewnością Cię
+                zainteresują !</p>
+            <p class="newsletter">Zapisz się już dziś !</p>
+        </div>
+
+        <div id="newsletter_form">
+            Podaj swój adres email : <input type="text" />
+            <button>Dołącz do nas</button>
+        </div>
+
+        
+    </footer>
+
+
+
 </body>
+
 </html>

@@ -1,11 +1,12 @@
 const express = require('express')
 const app = express()
 
-app.set('view engine', "ejs")
+app.set('view engine', 'ejs')
+app.use(express.static('static'))
 
-app.get('/',(req,res)=>{
+app.get('/home', (req, res) => {
     res.render('index')
 })
 
 app.listen(5000)
-console.log("Nasłuch na porcie 5000")
+console.log('Port 5000')

@@ -1,3 +1,47 @@
-body {
-    background-color: aquamarine;
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(50,50,50);
+    
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(50,50,50);
+}
+#logo {
+    width: 12%;
+    height: 12%;
+}
+
+#fact {
+    width: 400px;
+    border-left: 1px solid rgb(50,50,50);
+    padding: 15px;
+}
+.latest_posts {
+    width: 600px;
+    height: 400px;
+}
+h1, h3 {
+    text-align: center;
+}
+
+#navigation_bar {
+    display: flex;
+    align-items: center;
+}
+.nav_a {
+    color: white;
+    background-color: rgb(50,50,50);
+    border: 1px solid black;
+    font-size: 22px;
+    padding: 25px;
+    text-decoration: none;
+    margin: 5px;
 }
