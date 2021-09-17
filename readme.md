@@ -1,1 +1,1 @@
-raz dwa trzy zmienia zuk
+gitówa przejmóóóje
