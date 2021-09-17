@@ -1,3 +1,1 @@
-Chemistry Blog yo guys
-
-O luju ale bomba
+gitówa przejmóóóje
