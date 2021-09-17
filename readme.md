@@ -1,1 +1,1 @@
-Chemistry Blog yo guys
+raz dwa trzy zmienia zuk
